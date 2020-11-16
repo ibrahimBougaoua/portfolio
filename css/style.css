@@ -12,6 +12,20 @@ header.header {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.logo-text {
+    font-size: 36px;
+}
+.h-menu {
+height: 6em;
+}
+.line-h {
+line-height: 0.8;
+}
+.ul-menu li a {
+    color: #fff!important;
+    font-size: 20px;
+    margin-left: 5px;
+}
 .parag{
     color: #757575;
     font-size: 14px;
