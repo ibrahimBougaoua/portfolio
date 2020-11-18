@@ -10,7 +10,6 @@
     font-size: 14px;
 }
 .card:hover{
-    box-shadow: 8px 8px 8px blue;
     background-color: #ffc107;
     color: white;
     transform:scale(1.2);
