@@ -6,7 +6,20 @@
     background-color: #fff;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.35);
 }
-
+.card .read-more:hover{
+    font-size: 14px;
+}
+.card:hover{
+    background-color: #ffc107;
+    color: white;
+    transform:scale(1.2);
+}
+.card{
+  height:200px;
+  width:200px;
+  transition:.5s;
+  margin: 3rem;
+}
 
 
 .hovereffect {
