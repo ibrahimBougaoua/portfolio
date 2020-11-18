@@ -5,6 +5,7 @@ $(document).ready(function(){
       $(".fixed-top").removeClass("navbar-dark");
       $(".fixed-top").addClass("navbar-light");
       $(".fixed-top").addClass("nav-fixed-top");
+      $(".contact-btn").css("color", "white");
     } else {
       $(".fixed-top").removeClass("nav-fixed-top");
       $(".fixed-top").removeClass("navbar-light");
@@ -12,7 +13,6 @@ $(document).ready(function(){
     }
   });
 
-  // typing text animation script
     var typed = new Typed(".typing", {
         strings: ["YouTuber", "Developer", "Blogger", "Designer", "Freelancer"],
         typeSpeed: 100,
